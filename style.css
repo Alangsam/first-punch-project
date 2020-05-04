@@ -1,0 +1,71 @@
+.the-pic {
+    max-width: 100px;
+    max-height: 100px;
+  }
+  
+  .words {
+    font-size: 60px;
+  }
+  .border-1 {
+    border-width: 4px !important;
+  }
+  #clubs-upsidedown, #upsidedown-y, #yorktown-hidden-text, #complaints-about-golf, #upsidedown-africa, #africa-text {
+    display: none;
+  }
+  #africa-text, #complaints-about-golf, .yorktown-info {
+    font-size: 30px;
+    max-width: 400px;
+  }
+  #african-impact, .yorktown, #golf-header, #tell-me {
+    font-size: 40px;
+  }
+  .letter-y-ohno, .letter-y, #africa-logo, #golf-club, #clubs-upsidedown, #upsidedown-africa  {
+    max-width: 90px;
+    max-height: 50px;
+  }
+  .input-text, #right-species {
+    font-size: 15px;
+  }
+  .the-button {
+    font-size: 16px;
+  }
+  #yorktown-hidden-text, #africa-text, #complaints-about-golf {
+    margin-left: 74px;
+  }
+  .the-row {
+    width: 590px
+  }
+  @media (max-width: 768px) {
+    .the-pic {
+      max-width: 40px;
+      max-height: 40px;
+    }
+  
+    .words {
+      font-size: 20px;
+    }
+    #africa-text, #complaints-about-golf, .yorktown-info {
+    font-size: 15px;
+    max-width: 200px;
+    }
+    #african-impact, .yorktown, #golf-header, #tell-me {
+    font-size: 20px;
+    }
+    .letter-y-ohno, .letter-y, #africa-logo, #golf-club, #clubs-upsidedown, #upsidedown-africa  {
+    max-width: 100px;
+    max-height: 30px;
+    }  
+    .input-text, #right-species {
+    font-size: 10px;
+    }
+    .the-button {
+    font-size: 8px;
+    }
+    #yorktown-hidden-text, #africa-text, #complaints-about-golf {
+    margin-left: 54px;
+    }
+    .the-row {
+    width: 360px
+    }
+  }
+  

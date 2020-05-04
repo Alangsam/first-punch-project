@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>No Title</title>
+      <meta charset="utf-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <link
+         rel="stylesheet"
+         href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+         crossorigin="anonymous"
+      />
+      <!-- import the webpage's stylesheet -->
+      <link rel="stylesheet" href="/style.css" />
+      <script
+         src="https://code.jquery.com/jquery-3.5.0.min.js"
+         integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ="
+         crossorigin="anonymous"
+      ></script>
+      <!-- import the webpage's javascript file -->
+      <script src="/script.js" defer></script>
+   </head>
+   <body>
+      <div class="container">
+         <div class="row">
+            <div class="col-12 d-inline-flex justify-content-center">
+               <img
+                  class="border-1 rounded-circle the-pic border border-dark"
+                  src="https://cdn.glitch.com/e628599b-e714-443d-86ff-471652f1be73%2FIMG_0633.jpg?v=1588270240812"
+                  alt="picture of myself"
+               />
+
+               <p class="words pl-3 my-auto">
+                  Alex Langsam
+               </p>
+            </div>
+         </div>
+         <div>
+            <div class="row pt-5 the-row mx-auto">
+               <div class="col-12">
+                  <img
+                     id="upsidedown-y"
+                     class="letter-y-ohno"
+                     src="https://cdn.glitch.com/e628599b-e714-443d-86ff-471652f1be73%2Fy%20copy.jpg?v=1588291172125"
+                     alt="the upside down letter y"
+                  />
+                  <img
+                     id="letter-y"
+                     class="letter-y"
+                     src="https://cdn.glitch.com/e628599b-e714-443d-86ff-471652f1be73%2Fy.jpeg?v=1588285324874"
+                     alt="the letter y"
+                  />
+                  <p
+                     id="yorktown-text"
+                     class="yorktown font-weight-bold d-inline ml-3"
+                  >
+                     Yorktown High School
+                  </p>
+                  <p id="yorktown-hidden-text" class="yorktown-info text-left">
+                     I went to highschool where I grew up, in Arlington,
+                     Virginia. I graduated in 2017.
+                  </p>
+               </div>
+               <div class="col-12">
+                  <img
+                     id="upsidedown-africa"
+                     class="ohno-africa"
+                     src="https://cdn.glitch.com/e628599b-e714-443d-86ff-471652f1be73%2Fafrica%20logo%20copy.png?v=1588292592142"
+                     alt="africa but its upsidedown"
+                  />
+                  <img
+                     id="africa-logo"
+                     src="https://cdn.glitch.com/e628599b-e714-443d-86ff-471652f1be73%2Fafrica%20logo.png?v=1588292379234"
+                     alt="africa"
+                  />
+                  <p id="african-impact" class="font-weight-bold d-inline ml-3">
+                     African Impact
+                  </p>
+                  <p id="africa-text" class="text-left">
+                     In the fall after I graduated high-school, I went and lived
+                     in South Africa for a couple of months, through a great
+                     volunteer program that allowed me to experience and learn
+                     alot.
+                  </p>
+               </div>
+               <div class="col-12">
+                  <img
+                     id="golf-club"
+                     src="https://cdn.glitch.com/e628599b-e714-443d-86ff-471652f1be73%2Fgolf%20clooooobs%20copy.jpg?v=1588360483954"
+                     alt="golf clubs"
+                  />
+                  <img
+                     id="clubs-upsidedown"
+                     src="https://cdn.glitch.com/e628599b-e714-443d-86ff-471652f1be73%2Fgolf%20clooooobs.jpg?v=1588360453923"
+                     alt="golf clubs but they upsidedown"
+                  />
+                  <p id="golf-header" class="font-weight-bold d-inline ml-3">
+                     East Patomac Golf Course
+                  </p>
+                  <p id="complaints-about-golf" class="text-left">
+                     I worked at a public golf course in Washington D.C. All in
+                     all a terrible place to work, it was below sea level so
+                     anytime it rained we would be in a swamp, and I did golf
+                     course maintanence so I was always in the swamp.
+                  </p>
+               </div>
+            </div>
+         </div>
+         <div class="row pt-5">
+            <div class="col-4 offset-4 text-center">
+               <p id="tell-me" class="">
+                  Tell me Something
+               </p>
+            </div>
+            <div class="col-4 offset-4">
+               <div class="input-text">
+                  <input
+                     id="personal"
+                     name="porp"
+                     type="radio"
+                     value="personal-request"
+                  />
+                  <label for="personal"
+                     >This is going to be a personal note</label
+                  >
+               </div>
+               <div class="input-text">
+                  <input
+                     id="professional"
+                     name="porp"
+                     type="radio"
+                     value="professional-request"
+                  />
+                  <label for="professional"
+                     >This is going to be a professional message</label
+                  >
+               </div>
+            </div>
+            <div class="col-4 offset-4">
+               <textarea id="text-area" class="form-control"> </textarea>
+            </div>
+            <div class="col-2 offset-5">
+               <input
+                  type="checkbox"
+                  id="prove-it"
+                  class="custom-control-input is-invalid"
+                  unchecked
+               />
+               <label
+                  id="right-species"
+                  for="prove-it"
+                  class="custom-control-label text-center"
+                  >Click this to prove you are the right species</label
+               >
+            </div>
+            <div class="col-4 offset-4">
+               <input
+                  class="the-button btn btn-primary btn-block mt-3"
+                  id="send-button"
+                  type="submit"
+                  value="Send"
+                  disabled
+               />
+               <label></label>
+            </div>
+         </div>
+      </div>
+   </body>
+</html>
